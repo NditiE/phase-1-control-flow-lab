@@ -1,6 +1,6 @@
 function scuberGreetingForFeet(distanceinfeet) {
   if (distanceinfeet <= 400) {
-    return "This one is on me";
+    return "This one is on me!";
   } else if (distanceinfeet > 2000 && distanceinfeet <= 2500) {
     return "I will gladly take your thirty bucks.";
   } else if (distanceinfeet > 2500) {
@@ -24,7 +24,7 @@ function switchOnCharmFromTip(tip) {
     case 'not as generous':
       return "Thank you.";
     default:
-      return "Bye";
+      return "Bye.";
   }
 }
 
